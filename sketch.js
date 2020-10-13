@@ -90,7 +90,7 @@ function draw() {
     gameOver.visible = false;
     restart.visible = false;
     
-    ground.velocityX = -(4 + 3* score/100)
+    ground.velocityX = -(4 + score/100)
     //scoring
     score = score + Math.round(getFrameRate()/60);
     
